@@ -10,15 +10,14 @@ NCKU-thesis
 Usage
 =====
 
-在進行論文寫作時
-只需改變所有檔名為my_XXXXXXX.XXX之文件
-本tex之主結構檔為my_ntust_thesis.tex
-其中需要修改的東西為在frontpages及backpages之文件
-論文主結構及內容請分類放置於sections目錄中
-references的bibtex檔請放置於目錄第一層之my_bib.bib
+本 template 之主結構檔為 my_ncku_thesis.tex
+各章節的內容皆放置於 sections/ 
+frongpages/ 和 backpages/ 下的文件也需要額外的修改。
+預設的 bibtex 檔為根目錄下的 my_bib.bib 
 
-為了生產出正確的檔案，請務必編輯四次
-否則目錄及參考資料會亂掉
+make 除了自動產出文件件，也可以使用 clean 清除多餘的中間檔案。
+若要手動編譯，務必編譯四次以確保目錄及參考資料正確。
+
 pdflatex + bibtex + pdflatex + pdflatex
 
 
@@ -30,5 +29,6 @@ ChangeLog
 Modify
 ------
 
+* rename from NTUST to NCKU.
 * 使用 makefile 而不是 shell 自動產出 pdf。
 

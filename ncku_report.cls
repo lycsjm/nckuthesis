@@ -71,7 +71,7 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ntust_report}
+\ProvidesClass{ncku_report}
               [2005/03/16 v0.1
  Modified Standard LaTeX document class]
 \newcommand\@ptsize{}
