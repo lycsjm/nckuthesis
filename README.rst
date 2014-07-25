@@ -26,3 +26,9 @@ ChangeLog
 =========
 
 和 ntust-thesis 相比，修改了下列的項目：
+
+Modify
+------
+
+* 使用 makefile 而不是 shell 自動產出 pdf。
+
