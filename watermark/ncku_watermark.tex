@@ -1,4 +1,4 @@
-%
+
 % this file is encoded in utf-8
 % v1.7
 % 如果浮水印不是全篇需要，請把下列介於 >>> 與 <<<
@@ -25,16 +25,13 @@
 %width=0.8\textwidth]{my_watermark}}
 % new code
 \newsavebox{\mywatermark}
-\sbox{\mywatermark}{\includegraphics[keepaspectratio,
-width=2.8cm]{watermark/ncku_watermark.eps}}
+\sbox{\mywatermark}{\includegraphics{watermark/ncku_watermark.jpg}}
 
 
 % 將 central header 擺放浮水印的巨集指令
 \newcommand{\PlaceWaterMark}{\fancyhead[C]{\setlength{\unitlength}{1in}%
 \begin{picture}(0,0)%
-%\put(-2.2,-6){\usebox{\mywatermark}}% old code
-%\put(-0.5,-6.2){\usebox{\mywatermark}}% new code
-\put(-0.5,-5.3){\usebox{\mywatermark}}% new code
+\put(-1.4,-6.1){\usebox{\mywatermark}}
 \end{picture}}%
 }
 
