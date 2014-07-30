@@ -380,17 +380,6 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%       圖目錄 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% List of Figures
-\newpage
-\renewcommand{\listfigurename}{\protect\makebox[5cm][s]{\nameTof}}
-%\makebox{} is fragile; need protect
-\addcontentsline{toc}{chapter}{\nameTof}
-\listoffigures
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %       表目錄 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -400,6 +389,17 @@
 %\makebox{} is fragile; need protect
 \addcontentsline{toc}{chapter}{\nameLot}
 \listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       圖目錄 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% List of Figures
+\newpage
+\renewcommand{\listfigurename}{\protect\makebox[5cm][s]{\nameTof}}
+%\makebox{} is fragile; need protect
+\addcontentsline{toc}{chapter}{\nameTof}
+\listoffigures
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %       演算法目錄 
