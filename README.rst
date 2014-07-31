@@ -5,14 +5,14 @@ NCKU-thesis
 成功大學碩博士論文 LaTeX 模板
 Template for writing NCKU Thesis paper.
 
-本範本主要修改自 `ntust-thesis<http://code.google.com/p/ntust-thesis/>`_ ，另外
-參考了 `tzhuan/ntu-thesis<https://github.com/tzhuan/ntu-thesis>`_
+本範本主要修改自 ntust-thesis( http://code.google.com/p/ntust-thesis/ ) ，另外
+參考了 tzhuan/ntu-thesis( https://github.com/tzhuan/ntu-thesis )
 
 Usage
 =====
 
 本 template 之主結構檔為 my_ncku_thesis.tex
-frontpages/ 放包含封面、摘要、誌謝、目錄、表目錄、圖目錄、符號的相關設定。
+f<<rontpages/ 放包含封面、摘要、誌謝、目錄、表目錄、圖目錄、符號的相關設定。
 sections/ 中包含各章節的內容
 backpages/ 處理參考文獻、附錄、封底。
 
