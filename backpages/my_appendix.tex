@@ -5,6 +5,11 @@
 \renewcommand{\postchaptername}{}
 
 \begin{appendices}
+    % 使用中文時以「附錄一」而非「附錄 A」做為標題
+    \ifdefined \useChinese
+        \renewcommand{\thechapter}{\zhnum{chapter}}
+    \fi
+
     %--------------------------------------------------------------------------
     % appendix 內容
     % 若有過多的附錄亦可以「章」分割並放罝於 appendices/ 下，如下方範例：

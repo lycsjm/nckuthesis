@@ -103,6 +103,13 @@ commentstyle=\upshape,% 預設是斜體字，會影響註解裏的英文，改�
 \parskip=2ex  % 段落之間的間隔為兩個 x 的高度
 \parindent = 24Pt  % 段首內縮由 CJK 控制，所以這裡就設成不內縮
 
+% Chinese enviroment
+\ifdefined \useChinese
+    % 中文編號 / Chinese numbering
+    \usepackage{zhnumber}
+    %\renewcommand{\thechapter}{\zhnum{chapter}}  % 和 section 配合仍然很怪
+\fi
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  end of preamble
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

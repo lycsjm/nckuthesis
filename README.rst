@@ -26,6 +26,11 @@ ChangeLog
 
 和 ntust-thesis 相比，修改了下列的項目：
 
+Add
+---
+
+* 可以在 my_ncku_thesis.tex 中直接切換中英文樣式，不用再修改 chinese_trans.tex
+
 Modify
 ------
 
