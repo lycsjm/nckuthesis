@@ -35,3 +35,69 @@
 % 目前送出空白頁
 %\newpage{\thispagestyle{empty}\addcontentsline{toc}{chapter}{\nameCopyrightForm}\mbox{}\clearpage}
 %\includepdf{backpages/a.pdf}{\addcontentsline{toc}{chapter}{\nameCopyrightForm}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       NCKU back cover 封底
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 規定上有，但似乎不強制要求。
+% 輸出和封面類似的封底
+% Output back cover similar to cover
+%\begin{titlepage}
+%% cove use another margins
+%\newgeometry{tmargin=2.3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm}
+%
+%% aligned to the center of the page
+%\begin{center}
+%\large
+%% font size (relative to 12 pt):
+%% \large (14pt) < \Large (18pt) < \LARGE (20pt) < \huge (24pt)< \Huge (24 pt)
+%
+%\begin{figure}[htbp]
+%	\begin{minipage}[b]{5cm} 
+%		\raggedright
+%		\includegraphics[width=1.1in]{frontpages/ncku_logo.eps}
+%		\label{fig:ncku_logo}
+%	\end{minipage}% 
+%	\begin{minipage}[b]{0.5\textwidth} 
+%	\centering
+%	\makebox[3cm][c]{\Huge{\univCname}}\\  %顯示中文校名
+%	\vspace{0.5cm}
+%	\makebox[3cm][c]{\Huge{\deptCname}}\\ %顯示中文系所名
+%	\vspace{0.5cm}
+%	\end{minipage}%
+%\\ 
+%\rule{16cm}{3pt}
+%\end{figure}
+%%\hfill
+%
+%
+%\vspace{3cm}
+%
+%% Set the line spacing to single for the titles (to compress the lines)
+%\renewcommand{\baselinestretch}{1}   %行距 1 倍
+%%\large % it needs a font size changing command to be effective
+%\Large{\cTitle}\\  % 中文題目
+%%
+%\vspace{1cm}
+%%
+%\Large{\eTitle}\\ %英文題目
+%\vspace{5cm}
+%% \makebox is a text box with specified width;
+%% option s: stretch
+%\Large{\myCname}  % 顯示作者中文名
+%%
+%%
+%\vfill
+%\makebox[10cm][s]{\Large{中華民國\cYear 年\cMonth 月\cDay 日}}%
+%%
+%\end{center}
+%% Resume the line spacing to the desired setting
+%\renewcommand{\baselinestretch}{\mybaselinestretch}   %恢復原設定
+%% it needs a font size changing command to be effective
+%% restore the font size to normal
+%\normalsize
+%% restore margin
+%\restoregeometry
+%\end{titlepage}
