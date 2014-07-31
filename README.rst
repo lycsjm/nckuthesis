@@ -11,16 +11,15 @@ Template for writing NCKU Thesis paper.
 Usage
 =====
 
-本 template 之主結構檔為 my_ncku_thesis.tex
-f<<rontpages/ 放包含封面、摘要、誌謝、目錄、表目錄、圖目錄、符號的相關設定。
-sections/ 中包含各章節的內容
+本 template 之主結構檔為 my_ncku_thesis.tex。 frontpages/ 包含封面、摘要、誌謝、
+目錄、表目錄、圖目錄、符號的相關設定； sections/ 中包含各章節的內容；
 backpages/ 處理參考文獻、附錄、封底。
 
 make 除了自動產出文件件，也可以使用 clean 清除多餘的中間檔案。
 若要手動編譯，務必編譯四次以確保目錄及參考資料正確：
 pdflatex + bibtex + pdflatex + pdflatex
 
-ChangeLog
+Changelog
 =========
 
 和 ntust-thesis 相比，修改了下列的項目：
